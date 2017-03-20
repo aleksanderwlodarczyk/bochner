@@ -64,17 +64,29 @@ public class SterowanieGracz1 : MonoBehaviour {
 	//Obracanie gracza.
 	void RotateCharacter()
 	{
-		//Jeżeli gracz naciśnie D.
-		if (Input.GetKey (KeyCode.D))
-		{
-			//Obracanie w prawo.
-			transform.Rotate (transform.up, SzybkośćObrotu * Time.deltaTime, Space.World);
-		}
-		//Jeżeli gracz naciśnie A.
-		if (Input.GetKey(KeyCode.A))
-		{
-			//Obracanie w lewo.
-			transform.Rotate (transform.up, -SzybkośćObrotu * Time.deltaTime, Space.World);
+		if (speed >= 0.0f) {
+			//Jeżeli gracz naciśnie D.
+			if (Input.GetKey (KeyCode.D)) {
+				//Obracanie w prawo.
+				transform.Rotate (transform.up, SzybkośćObrotu * Time.deltaTime, Space.World);
+			}
+			//Jeżeli gracz naciśnie A.
+			if (Input.GetKey (KeyCode.A)) {
+				//Obracanie w lewo.
+				transform.Rotate (transform.up, -SzybkośćObrotu * Time.deltaTime, Space.World);
+			}
+		} 
+		else { // Warunek, żeby w trakcie cofania nie obracał się w lewo, skręcając w prawo i odwrotnie. 
+			//Jeżeli gracz naciśnie A.
+			if (Input.GetKey (KeyCode.A)) {
+				//Obracanie w lewo.
+				transform.Rotate (transform.up, SzybkośćObrotu * Time.deltaTime, Space.World);
+			}
+			//Jeżeli gracz naciśnie D.
+			if (Input.GetKey (KeyCode.D)) {
+				//Obracanie w prawo.
+				transform.Rotate (transform.up, -SzybkośćObrotu * Time.deltaTime, Space.World);
+			}
 		}
 	}
 

@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour {
 
 	void Update () {
 		if (Input.GetKey (KeyCode.R)) {
-			SceneManager.LoadScene (0);
+			SceneManager.LoadScene ("Generator");
 		}
 		if (Input.GetKey (KeyCode.Escape)) {
 			SceneManager.LoadScene ("Menu");

@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 108540505}
   m_Layer: 0
   m_Name: Przeszkoda (4)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -465,7 +465,7 @@ GameObject:
   - component: {fileID: 152951675}
   m_Layer: 0
   m_Name: Przeszkoda (5)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -546,7 +546,7 @@ GameObject:
   - component: {fileID: 167598777}
   m_Layer: 0
   m_Name: Przeszkoda (5)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -627,7 +627,7 @@ GameObject:
   - component: {fileID: 168719561}
   m_Layer: 0
   m_Name: Przeszkoda (7)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -708,7 +708,7 @@ GameObject:
   - component: {fileID: 250947228}
   m_Layer: 0
   m_Name: Przeszkoda (3)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1218,7 +1218,7 @@ GameObject:
   - component: {fileID: 517932423}
   m_Layer: 0
   m_Name: Przeszkoda (8)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1395,7 +1395,7 @@ GameObject:
   - component: {fileID: 531844926}
   m_Layer: 0
   m_Name: Przeszkoda (4)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1476,7 +1476,7 @@ GameObject:
   - component: {fileID: 715125002}
   m_Layer: 0
   m_Name: Przeszkoda (9)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1557,7 +1557,7 @@ GameObject:
   - component: {fileID: 726704049}
   m_Layer: 0
   m_Name: Przeszkoda (3)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1872,7 +1872,7 @@ GameObject:
   - component: {fileID: 932647854}
   m_Layer: 0
   m_Name: Przeszkoda (1)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1986,7 +1986,7 @@ GameObject:
   - component: {fileID: 953514920}
   m_Layer: 0
   m_Name: Przeszkoda (3)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2293,7 +2293,7 @@ GameObject:
   - component: {fileID: 1082586618}
   m_Layer: 0
   m_Name: Przeszkoda (4)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2374,7 +2374,7 @@ GameObject:
   - component: {fileID: 1086917013}
   m_Layer: 0
   m_Name: Przeszkoda
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2455,7 +2455,7 @@ GameObject:
   - component: {fileID: 1090226046}
   m_Layer: 0
   m_Name: Cylinder (1)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2537,7 +2537,7 @@ GameObject:
   - component: {fileID: 1111960400}
   m_Layer: 0
   m_Name: Przeszkoda (6)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2877,7 +2877,7 @@ GameObject:
   - component: {fileID: 1245407868}
   m_Layer: 0
   m_Name: Cylinder
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3137,7 +3137,7 @@ GameObject:
   - component: {fileID: 1354161362}
   m_Layer: 0
   m_Name: Przeszkoda (2)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3610,7 +3610,7 @@ GameObject:
   - component: {fileID: 1486763252}
   m_Layer: 0
   m_Name: Przeszkoda (5)
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3765,7 +3765,7 @@ GameObject:
   - component: {fileID: 1666670929}
   m_Layer: 0
   m_Name: Drzewa
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4225,7 +4225,7 @@ GameObject:
   - component: {fileID: 1875594180}
   m_Layer: 0
   m_Name: Mur
-  m_TagString: Untagged
+  m_TagString: Przeszkoda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

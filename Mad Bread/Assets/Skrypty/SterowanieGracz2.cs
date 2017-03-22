@@ -12,7 +12,18 @@ public class SterowanieGracz2 : MonoBehaviour {
 	void Start () {
 	}
 
-	void Update() {
+	void OnCollisionEnter (Collision other){
+		if (other.gameObject.tag == "Przeszkoda") {
+			if (speed > 20.0f) {
+				speed = 20f;
+			}
+			if (speed > 0.0f) {
+				speed -= 2.0f;
+			}
+		}
+	}
+
+	void FixedUpdate() {
 		if (start == true) {
 			MoveCharacter ();
 			RotateCharacter ();

@@ -13,13 +13,25 @@ public class SterowanieGracz1 : MonoBehaviour {
 		
 	}
 
-	void Update() {
+	void OnCollisionEnter (Collision other){
+		if (other.gameObject.tag == "Przeszkoda") {
+			if (speed > 20.0f) {
+				speed = 20f;
+			}
+			if (speed > 0.0f) {
+					speed -= 2.0f;
+				}
+			}
+		}
+
+	void FixedUpdate() {
 		if (start == true) {
 			MoveCharacter ();
 			RotateCharacter ();
 		}
 
 		transform.eulerAngles= new Vector3(transform.eulerAngles.x,transform.eulerAngles.y,0); //Chleb nie może się przewrócić na boki.
+
 	}
 	//Poruszanie.
 	void MoveCharacter () {
@@ -58,6 +70,7 @@ public class SterowanieGracz1 : MonoBehaviour {
 		{
 			speed = 0.0f;
 		}
+			
 		//Porusza gracza do przodu.
 		transform.Translate(transform.forward * speed* Time.deltaTime, Space.World);
 	}

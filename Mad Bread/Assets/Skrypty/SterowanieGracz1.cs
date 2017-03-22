@@ -28,6 +28,7 @@ public class SterowanieGracz1 : MonoBehaviour {
 		if (start == true) {
 			MoveCharacter ();
 			RotateCharacter ();
+			SpeedoMeter ();
 		}
 
 		transform.eulerAngles= new Vector3(transform.eulerAngles.x,transform.eulerAngles.y,0); //Chleb nie może się przewrócić na boki.
@@ -115,5 +116,9 @@ public class SterowanieGracz1 : MonoBehaviour {
 
 		if (other.tag == "Trasa")
 			naTrasie = true;
+	}
+	void SpeedoMeter()
+	{
+		SpeedometerGracz1.ShowSpeed (speed, 0, 30);
 	}
 }

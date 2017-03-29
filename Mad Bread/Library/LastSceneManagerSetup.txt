@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Sceny/generator2.unity
+- path: Assets/Sceny/ScenaTestowa.unity
   isLoaded: 1
   isActive: 1

@@ -10,7 +10,6 @@ public class SterowanieGracz1 : MonoBehaviour {
 	public bool naTrasie = true;
 
 	void Start () {
-		
 	}
 
 	void OnCollisionEnter (Collision other){
@@ -19,10 +18,10 @@ public class SterowanieGracz1 : MonoBehaviour {
 				speed = 20f;
 			}
 			if (speed > 0.0f) {
-					speed -= 2.0f;
-				}
+				speed -= 2.0f;
 			}
 		}
+	}
 
 	void FixedUpdate() {
 		if (start == true) {
@@ -32,7 +31,6 @@ public class SterowanieGracz1 : MonoBehaviour {
 		}
 
 		transform.eulerAngles= new Vector3(transform.eulerAngles.x,transform.eulerAngles.y,0); //Chleb nie może się przewrócić na boki.
-
 	}
 	//Poruszanie.
 	void MoveCharacter () {

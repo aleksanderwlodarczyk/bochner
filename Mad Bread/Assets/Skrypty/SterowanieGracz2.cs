@@ -69,6 +69,7 @@ public class SterowanieGracz2 : MonoBehaviour {
 		{
 			speed = 0.0f;
 		}
+
 		//Porusza gracza do przodu.
 		transform.Translate(transform.forward * speed* Time.deltaTime, Space.World);
 	}

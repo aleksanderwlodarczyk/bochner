@@ -74,7 +74,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1843536399246802}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16, y: 1.25, z: -21}
+  m_LocalPosition: {x: -3, y: 1, z: -18}
   m_LocalScale: {x: 1.5, y: 1.5, z: 4}
   m_Children:
   - {fileID: 4396132267403814}
@@ -220,7 +220,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 5
+  m_AngularDrag: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -280,7 +280,7 @@ MonoBehaviour:
   speed: 0
   MaxSpeed: 30
   MinSpeed: -10
-  "Szybko\u015B\u0107Obrotu": 55
+  "Szybko\u015B\u0107Obrotu": 90
   start: 0
   naTrasie: 1
 --- !u!124 &124191969769528712

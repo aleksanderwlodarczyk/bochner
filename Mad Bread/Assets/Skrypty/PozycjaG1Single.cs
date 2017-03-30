@@ -14,7 +14,7 @@ public class PozycjaG1Single : MonoBehaviour
         if (i == 1) DystansStart = Vector3.Distance(GameObject.FindGameObjectWithTag("Gracz1").transform.position, GameObject.FindGameObjectWithTag("Finish").transform.position);
         i = 2;
         dystans = Vector3.Distance(GameObject.FindGameObjectWithTag("Gracz1").transform.position, GameObject.FindGameObjectWithTag("Finish").transform.position);
-        różnica = 620 * (1 - dystans / DystansStart);
+        różnica = 1000 * (1 - dystans / DystansStart);
         pochodna = różnica - stara;
         stara = różnica;
         transform.Translate(0, pochodna, 0);

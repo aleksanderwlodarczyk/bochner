@@ -16,6 +16,6 @@ public class Menu : MonoBehaviour {
 	}
 	public void LoadScene(string scena)
 	{
-		SceneManager.LoadScene ("Generator");
+		SceneManager.LoadScene ("OnePlayer");
 	}
 }

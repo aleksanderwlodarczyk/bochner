@@ -1,11 +1,11 @@
-﻿ using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class SterowanieGracz1 : MonoBehaviour {
 	public float speed = 0.0f;
 	public float MaxSpeed;
 	public float MinSpeed;
-	public float SzybkośćObrotu = 200.0f;
+	public float SzybkośćObrotu = 80.0f;
 	public bool start = false;
 	public bool naTrasie = true;
 
@@ -18,7 +18,7 @@ public class SterowanieGracz1 : MonoBehaviour {
 				speed = 20f;
 			}
 			if (speed > 0.0f) {
-				speed -= 2.0f;
+				speed -= 3.0f;
 			}
 		}
 	}
@@ -40,7 +40,7 @@ public class SterowanieGracz1 : MonoBehaviour {
 			//Przyspieszanie.
 			if (speed < MaxSpeed)
 			{
-				speed += 0.3f;
+				speed += 0.1f;
 			}
 		}
 		//Jeżeli gracz naciśnie S.
@@ -49,7 +49,7 @@ public class SterowanieGracz1 : MonoBehaviour {
 			//Przyspieszanie do tyłu.
 			if (speed > MinSpeed)
 			{
-				speed -= 1f;
+				speed -= 0.2f;
 			}
 		}
 		//Jeżeli gracz nie klika ani W ani S.
@@ -58,10 +58,10 @@ public class SterowanieGracz1 : MonoBehaviour {
 			//Zwalnianie.
 			if (speed > 0.0f)
 			{
-				speed -= 0.3f;
+				speed -= 0.2f;
 			}
 			if (speed < 0.0f){
-			 speed += 0.1f;}
+				speed += 0.2f;}
 		}
 
 		//Zatrzymuje prędkość na 0 przy zwalnianiu.
@@ -69,7 +69,7 @@ public class SterowanieGracz1 : MonoBehaviour {
 		{
 			speed = 0.0f;
 		}
-			
+
 		//Porusza gracza do przodu.
 		transform.Translate(transform.forward * speed* Time.deltaTime, Space.World);
 	}

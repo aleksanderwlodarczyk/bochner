@@ -47,28 +47,30 @@ public class Respawn : MonoBehaviour {
 			rotacja2 = gracz2.transform.rotation;
 		}
 
-		yield return new WaitForSeconds (2);
+		yield return new WaitForSeconds (3);
 
 	}
 
 
 	void Resp(GameObject gracz, int n)
 	{
-		Destroy (gracz);
 		if (n == 1) 
 		{
-			gracz1 = Instantiate (gracz1p, pozycja1, rotacja1);
+			GameObject.Find ("Gracz1").GetComponent<SterowanieGracz1> ().speed = 0.0f;
+			gracz1.transform.position = pozycja1;
 			gracz1.GetComponent<SterowanieGracz1> ().start = true;
 
 		}
 		if (n == 2)
 		{
-			gracz2 = Instantiate (gracz2p, pozycja2, rotacja2);
+			GameObject.Find ("Gracz2").GetComponent<SterowanieGracz2> ().speed = 0.0f;
+			gracz2.transform.position = pozycja2;
 			gracz2.GetComponent<SterowanieGracz2> ().start = true;
 		}
 
 	}
 }
+
 
 
 

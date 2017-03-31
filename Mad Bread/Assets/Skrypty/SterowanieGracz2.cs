@@ -18,7 +18,7 @@ public class SterowanieGracz2 : MonoBehaviour {
 				speed = 20f;
 			}
 			if (speed > 0.0f) {
-				speed -= 2.0f;
+				speed -= 3.0f;
 			}
 		}
 	}
@@ -40,7 +40,7 @@ public class SterowanieGracz2 : MonoBehaviour {
 			//Przyspieszanie.
 			if (speed < MaxSpeed)
 			{
-				speed += 0.3f;
+				speed += 0.1f;
 			}
 		}
 		//Jeżeli gracz naciśnie strzałkę w dół.
@@ -49,7 +49,7 @@ public class SterowanieGracz2 : MonoBehaviour {
 			//Przyspieszanie do tyłu.
 			if (speed > MinSpeed)
 			{
-				speed -= 1f;
+				speed -= 0.2f;
 			}
 		}
 		//Jeżeli gracz nie klika ani strzałki w górę ani strzałki w dół.
@@ -58,10 +58,10 @@ public class SterowanieGracz2 : MonoBehaviour {
 			//Zwalnianie.
 			if (speed > 0.0f)
 			{
-				speed -= 0.3f;
+				speed -= 0.2f;
 			}
 			if (speed < 0.0f){
-			 speed += 0.1f;}
+			 	speed += 0.2f;}
 		}
 
 		//Zatrzymuje prędkość na 0 przy zwalnianiu.

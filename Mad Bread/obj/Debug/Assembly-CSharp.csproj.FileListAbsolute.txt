@@ -63,7 +63,6 @@ C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.Ana
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.dll
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.HoloLens.dll
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.Networking.dll
-C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.UI.dll
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.VR.dll
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\Mono.Cecil.dll
@@ -78,7 +77,6 @@ C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.xml
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEditor.xml
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.UI.xml
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.Networking.xml
-C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.Analytics.xml
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.VR.xml
@@ -114,3 +112,7 @@ C:\Users\alpeh\OneDrive\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityE
 C:\Users\alpeh\OneDrive\Documents\GitHub\bochner\Mad Bread\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\alpeh\OneDrive\Documents\GitHub\bochner\Mad Bread\obj\Debug\Assembly-CSharp.dll
 C:\Users\alpeh\OneDrive\Documents\GitHub\bochner\Mad Bread\obj\Debug\Assembly-CSharp.pdb
+C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\nunit.framework.dll
+C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.TestRunner.dll
+C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.TestRunner.xml
+C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\nunit.framework.xml

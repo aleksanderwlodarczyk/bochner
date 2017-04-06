@@ -33,7 +33,7 @@ public class GameManager2 : MonoBehaviour {
 
 	void Update () {
 		if (Input.GetKey (KeyCode.R)) {
-			SceneManager.LoadScene ("Gon 4 Buty");
+			SceneManager.LoadScene ("DrugiTrybScena");
 		}
 		if (Input.GetKey (KeyCode.Escape)) {
 			Application.Quit ();

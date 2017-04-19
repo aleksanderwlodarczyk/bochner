@@ -40,7 +40,7 @@ public class SterowanieGracz2 : MonoBehaviour {
 			//Przyspieszanie.
 			if (speed < MaxSpeed)
 			{
-				speed += 0.1f;
+				speed += 0.2f;
 			}
 		}
 		//Jeżeli gracz naciśnie strzałkę w dół.
@@ -49,7 +49,7 @@ public class SterowanieGracz2 : MonoBehaviour {
 			//Przyspieszanie do tyłu.
 			if (speed > MinSpeed)
 			{
-				speed -= 0.2f;
+				speed -= 0.4f;
 			}
 		}
 		//Jeżeli gracz nie klika ani strzałki w górę ani strzałki w dół.

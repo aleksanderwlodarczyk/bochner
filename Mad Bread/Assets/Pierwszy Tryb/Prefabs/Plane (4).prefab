@@ -197,7 +197,7 @@ Transform:
   m_GameObject: {fileID: 1145503167804998}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.5, z: 0}
-  m_LocalScale: {x: 0.6, y: 1, z: 0.9}
+  m_LocalScale: {x: 0.75, y: 1, z: 0.9}
   m_Children: []
   m_Father: {fileID: 4798702402057236}
   m_RootOrder: 1
@@ -209,8 +209,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1270505575755862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.661057, y: 108.44612, z: -23.42484}
-  m_LocalScale: {x: 1.5, y: 1, z: 5}
+  m_LocalPosition: {x: -740.48285, y: 584.1643, z: 31.49779}
+  m_LocalScale: {x: 4.5, y: 1, z: 15}
   m_Children:
   - {fileID: 4903111384437112}
   - {fileID: 4688487298644284}
@@ -264,6 +264,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23176727789904038
 MeshRenderer:
@@ -295,6 +296,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23186658685864978
 MeshRenderer:
@@ -326,6 +328,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23196238736958442
 MeshRenderer:
@@ -357,6 +360,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23508670256554270
 MeshRenderer:
@@ -388,6 +392,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23626751653566778
 MeshRenderer:
@@ -419,6 +424,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23889051724294358
 MeshRenderer:
@@ -450,6 +456,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &33056800078303162
 MeshFilter:

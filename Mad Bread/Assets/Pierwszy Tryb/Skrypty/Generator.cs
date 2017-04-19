@@ -10,8 +10,9 @@ public class Generator : MonoBehaviour {
 	public int szansaZakretu;
 	public GameObject meta;
 
+
 	private Quaternion rotacja = new Quaternion (0f,0f,0f,0f);
-	private float polowaSeg = 50f;
+	private float polowaSeg = 150f;
 	private Vector3 pozycja = new Vector3 (0, 0, 9.5f);
 	private int PoM = 1;
 	private int obecnaOs = 1; // 1 to z 2 to y
@@ -20,8 +21,10 @@ public class Generator : MonoBehaviour {
 	private int zakrety = 0;
 	private int poZakrecie1 = 0;
 	private int poZakrecie2 = 1;
+    private float segX = 52.5f;
 
-	void Start () 
+
+    void Start () 
 	{
 		Instantiate (segmenty [Random.Range (0, segmenty.Count - 1)], pozycja, rotacja);
 
@@ -64,14 +67,14 @@ public class Generator : MonoBehaviour {
 			int RoL = Random.Range (1, 2);
 			if (RoL == 1) { //prawo
 				if (obecnaOs == 1) {
-					pozycja.z -= 17.5f;
-					pozycja.x += 17.5f;
+					pozycja.z -= segX;
+					pozycja.x += segX;
 
 					obecnaOs = 2;
 				
 				} else {
-					pozycja.x -= 17.5f;
-					pozycja.z += 17.5f;
+					pozycja.x -= segX;
+					pozycja.z += segX;
 
 					obecnaOs = 1;
 
@@ -79,15 +82,15 @@ public class Generator : MonoBehaviour {
 				PoM = 1;
 			} else { //lewo
 				if (obecnaOs == 1) {
-					pozycja.z -= 17.5f;
-					pozycja.x += 17.5f;
+					pozycja.z -= segX;
+					pozycja.x += segX;
 
 
 					obecnaOs = 2;
 
 				} else {
-					pozycja.x -= 17.5f;
-					pozycja.z += 17.5f;
+					pozycja.x -= segX;
+					pozycja.z += segX;
 
 					obecnaOs = 1;
 				}

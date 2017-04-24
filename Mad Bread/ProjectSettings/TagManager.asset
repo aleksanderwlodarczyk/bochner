@@ -9,6 +9,8 @@ TagManager:
   - "Mas\u0142o"
   - Trasa
   - Przeszkoda
+  - Plomien1
+  - Plomien2
   layers:
   - Default
   - TransparentFX

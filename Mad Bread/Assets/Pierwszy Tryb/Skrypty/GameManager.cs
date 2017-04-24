@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour {
 	private GameObject gracz1;
 	private GameObject gracz2;
 
-	void Awake()
+    void Awake()
 	{
 		gracz1 = GameObject.Find (gracz1p.name);
 		gracz2 = GameObject.Find (gracz2p.name);
@@ -21,7 +21,6 @@ public class GameManager : MonoBehaviour {
 
 	void Start(){
 		StartCoroutine (Odliczanie ());
-
 	}
 
 	void Update () {

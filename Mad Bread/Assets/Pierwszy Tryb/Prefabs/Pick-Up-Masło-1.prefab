@@ -90,7 +90,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4031329090275832}
   m_Layer: 0
-  m_Name: "Pick Up Mas\u0142o 1"
+  m_Name: "Pick-Up-Mas\u0142o-1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102,9 +102,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1980915896886378}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3966802, y: 2.458252, z: -2.6154907}
-  m_LocalScale: {x: 0.33333334, y: 1, z: 0.2}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.5, y: 3.31, z: 16.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4837631396587612}
   - {fileID: 4330767955078948}

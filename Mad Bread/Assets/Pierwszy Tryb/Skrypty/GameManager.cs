@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
-	public GUIText WyścigStart;
-	public GUIText Meta;
+	public Text WyścigStart;
 
 
 	public GameObject gracz1p;
@@ -32,13 +32,12 @@ public class GameManager : MonoBehaviour {
 		}
 
 		if(GameObject.Find ("LiniaMety").GetComponent<CzyKtosWygral> ().WygralGracz1 == true){
-			Meta.text = "Wygrał gracz 1!";
+			
 			gracz1.GetComponent<SterowanieGracz1> ().start = false;
-			gracz2.GetComponent<SterowanieGracz2> ().start = false;
+			
 		}
 		if(GameObject.Find ("LiniaMety").GetComponent<CzyKtosWygral> ().WygralGracz2 == true){
-			Meta.text = "Wygrał gracz 2!";
-			gracz1.GetComponent<SterowanieGracz1> ().start = false;
+			
 			gracz2.GetComponent<SterowanieGracz2> ().start = false;
 		}
 	}

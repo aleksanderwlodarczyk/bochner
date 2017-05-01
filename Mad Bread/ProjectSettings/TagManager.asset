@@ -11,6 +11,8 @@ TagManager:
   - Przeszkoda
   - Plomien1
   - Plomien2
+  - G2Win
+  - G1Win
   layers:
   - Default
   - TransparentFX

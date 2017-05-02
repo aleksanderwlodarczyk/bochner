@@ -10,7 +10,7 @@ public class PozycjaG1Single : MonoBehaviour
         P1 = Screen.height * Screen.width; // rozdzielczość ekranu
         P2 = 1920 * 1080; //domyślna rozdzielczość
         k = Mathf.Sqrt(P1 / P2);
-        ratio = k * 1000f;
+        ratio = k * 970f;
         i = 1;
     }
 

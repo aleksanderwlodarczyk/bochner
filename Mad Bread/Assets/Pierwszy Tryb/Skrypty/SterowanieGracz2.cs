@@ -8,6 +8,7 @@ public class SterowanieGracz2 : MonoBehaviour {
 	public float SzybkośćObrotu = 200.0f;
 	public bool start = false;
 	public bool naTrasie = true;
+	public bool mierzenieSpeeda = true;
 
 	void Start () {
 	}
@@ -117,6 +118,7 @@ public class SterowanieGracz2 : MonoBehaviour {
 	}
 	void SpeedoMeter()
 	{
+		if (mierzenieSpeeda == true)
 		SpeedometerGracz2.ShowSpeed (speed, 0, 30);
 	}
 }

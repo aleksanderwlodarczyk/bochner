@@ -7,7 +7,7 @@ public class TimerSingle : MonoBehaviour
 {
     public Text timerText, CzasG1, Rekord,StrataText;
     private float startTime;
-    private bool start = GameObject.FindGameObjectWithTag("Gracz1").GetComponent<SterowanieGracz1>().start;
+	private bool start;
     private int x = 0;
     private string Czas, seconds;
     private float t;

@@ -13,8 +13,8 @@ public class Respawn2 : MonoBehaviour {
 	public float gracz1X, gracz1Y, gracz1Z, gracz2X, gracz2Y, gracz2Z;
 
 	void Start () {
-		gracz1 = GameObject.Find ("Gracz1");
-		gracz2 = GameObject.Find ("Gracz2");
+		gracz1 = gracz1p;
+		gracz2 = gracz2p;
 	}
 
 	void OnCollisionEnter (Collision other){
@@ -29,14 +29,14 @@ public class Respawn2 : MonoBehaviour {
 	{
 		if (n == 1) 
 		{
-			GameObject.Find ("Gracz1").GetComponent<SterowanieGracz1> ().speed = 0.0f;
+			gracz1.GetComponent<SterowanieGracz1> ().speed = 0.0f;
 			gracz1.transform.rotation = new Quaternion (0, 0, 0, 0);
 			gracz1.transform.position = new Vector3 (gracz1X, gracz1Y, gracz1Z);
 
 		}
 		if (n == 2)
 		{
-			GameObject.Find ("Gracz2").GetComponent<SterowanieGracz2> ().speed = 0.0f;
+			gracz2.GetComponent<SterowanieGracz2> ().speed = 0.0f;
 			gracz2.transform.position = new Vector3 (gracz2X, gracz2Y, gracz2Z);
 			gracz2.transform.rotation = new Quaternion (0, 0, 0, 0);
 		}

@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine.UI;
 using UnityEngine;
 
 public class NaliczaniePunktów2 : MonoBehaviour {
-	public GUIText iloscPunktow1;
+	public Text iloscPunktow1;
 	public int punkty1;
 	public int[] tablicaNumerków;
 	public KtoDotknął2[] skrypty;
@@ -13,7 +12,7 @@ public class NaliczaniePunktów2 : MonoBehaviour {
 		punkty1 = 0;
 
 		tablicaNumerków = new int[GameObject.FindGameObjectsWithTag ("Przedmiot").Length];
-		punktyŻebyWygrać = (Mathf.RoundToInt (GameObject.FindGameObjectsWithTag ("Przedmiot").Length));
+		punktyŻebyWygrać = (Mathf.RoundToInt (GameObject.FindGameObjectsWithTag ("Przedmiot").Length/2));
 
 		skrypty = Object.FindObjectsOfType (typeof(KtoDotknął2)) as KtoDotknął2[];
 		GameObject.FindGameObjectsWithTag ("Przedmiot");
@@ -25,6 +24,6 @@ public class NaliczaniePunktów2 : MonoBehaviour {
 	}
 
 	void Update (){
-		iloscPunktow1.text = "Punkty: " + punkty1.ToString () + "/" + punktyŻebyWygrać.ToString();
-	}
+		iloscPunktow1.text = (punktyŻebyWygrać - punkty1).ToString();
+    }
 }

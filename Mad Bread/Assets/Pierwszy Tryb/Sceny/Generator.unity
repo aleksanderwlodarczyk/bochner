@@ -1681,8 +1681,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 288848900}
-  distance: 15
-  height: 7
+  distance: 17
+  height: 8
   heightDamping: 0.1
   rotationDamping: 0.1
 --- !u!4 &1319095079 stripped
@@ -2180,8 +2180,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1319095079}
-  distance: 15
-  height: 7
+  distance: 17
+  height: 8
   heightDamping: 0.1
   rotationDamping: 0.1
 --- !u!81 &1736393457

@@ -119,6 +119,6 @@ public class SterowanieGracz1 : MonoBehaviour {
 	void SpeedoMeter()
 	{
 		if (mierzenieSpeeda == true)
-		SpeedometerGracz1.ShowSpeed (speed, 0, 30);
+		SpeedometerGracz1.ShowSpeed (speed, 0, 55);
 	}
 }

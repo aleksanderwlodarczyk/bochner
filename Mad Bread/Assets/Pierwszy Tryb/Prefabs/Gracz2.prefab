@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
-  MaxSpeed: 30
+  MaxSpeed: 50
   MinSpeed: -10
   "Szybko\u015B\u0107Obrotu": 75
   start: 0

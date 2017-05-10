@@ -54,9 +54,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1843536399246802}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 27, z: -150}
-  m_LocalScale: {x: 5, y: 5, z: 9}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3, y: 1, z: -18}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 5}
   m_Children:
   - {fileID: 4598734720044448}
   m_Father: {fileID: 0}
@@ -204,3 +204,4 @@ MonoBehaviour:
   "Szybko\u015B\u0107Obrotu": 75
   start: 0
   naTrasie: 1
+  mierzenieSpeeda: 1

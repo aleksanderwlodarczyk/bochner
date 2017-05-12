@@ -21,7 +21,7 @@ public class Generator : MonoBehaviour {
 	private int zakrety = 0;
 	private int poZakrecie1 = 0;
 	private int poZakrecie2 = 1;
-    private float segX = 52.5f;
+    private float segX = 115f;
 
 
     void Start () 

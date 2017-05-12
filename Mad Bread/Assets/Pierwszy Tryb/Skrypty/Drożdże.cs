@@ -14,19 +14,19 @@ public class Drożdże : MonoBehaviour {
 
 	IEnumerator Powiększanie (){
 		GameObject Gracz1 = GameObject.Find ("Gracz1");
-		Gracz1.transform.localScale = new Vector3 (4.0f, 4.0f, 6.0f);
+		Gracz1.transform.localScale = new Vector3 (6f, 6f, 11f);
 		Gracz1.GetComponent<Rigidbody> ().mass = 10.0f;
 		yield return new WaitForSeconds (wait);
-		Gracz1.transform.localScale = new Vector3 (2.5f, 2.5f, 5.0f);
+		Gracz1.transform.localScale = new Vector3 (5f, 5f, 10f);
 		Gracz1.GetComponent<Rigidbody> ().mass = 1.0f;
 	}
 
 	IEnumerator Powiększanie2 (){
 		GameObject Gracz2 = GameObject.Find ("Gracz2");
-		Gracz2.transform.localScale = new Vector3 (4.0f, 4.0f, 6.0f);
+		Gracz2.transform.localScale = new Vector3 (6f, 6f, 11f);
 		Gracz2.GetComponent<Rigidbody> ().mass = 10.0f;
 		yield return new WaitForSeconds (wait);
-		Gracz2.transform.localScale = new Vector3 (2.5f, 2.5f, 5.0f);
+		Gracz2.transform.localScale = new Vector3 (5f, 5f, 10f);
 		Gracz2.GetComponent<Rigidbody> ().mass = 1.0f;
 	}
 

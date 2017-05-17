@@ -5,7 +5,7 @@ using System.Collections;
 public class Timer : MonoBehaviour
 {
     public Text timerText, G1Czas, G2Czas, G1_2Czas, G2_2Czas, Rekord1, Rekord2;
-    public CanvasGroup RekordG1, RekordG2;
+    public CanvasGroup RekordG1, RekordG2, Zwycięstwo1, Zwycięstwo2;
     private float startTime,t,t1,t2;
     private bool start1 = GameObject.FindGameObjectWithTag("Gracz1").GetComponent<SterowanieGracz1>().start;
     private bool start2 = GameObject.FindGameObjectWithTag("Gracz2").GetComponent<SterowanieGracz2>().start;
@@ -49,6 +49,7 @@ public class Timer : MonoBehaviour
                 CzasG1 = Czas;
                 t1 = t;
                 y = 1;
+                Zwycięstwo1.alpha = 1;
             }
             if (x > 0 && y != 2 && z2 != 1 && start2 == false)
             {
@@ -56,7 +57,8 @@ public class Timer : MonoBehaviour
                 CzasG2 = Czas;
                 t2 = t;
                 y = 2;
-            }
+                Zwycięstwo2.alpha = 1;
+        }
             if (x > 0 && start1 == false && start2 == false)
             {
                 if (y == 2)

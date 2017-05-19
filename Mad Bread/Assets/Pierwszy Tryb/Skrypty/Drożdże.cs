@@ -36,7 +36,7 @@ public class Drożdże : MonoBehaviour {
 			gameObject.transform.localPosition = new Vector3 (transform.position.x, -100, transform.position.z);
 			gameObject.transform.localScale = new Vector3 (0, 0, 0);
 			yield return new WaitForSeconds (wait);
-			Destroy (gameObject);
+			gameObject.SetActive (false);
 		}
 
 		if (other.gameObject.tag == "Gracz2") {
@@ -44,7 +44,7 @@ public class Drożdże : MonoBehaviour {
 			gameObject.transform.localPosition = new Vector3 (transform.position.x, -100, transform.position.z);
 			gameObject.transform.localScale = new Vector3 (0, 0, 0);
 			yield return new WaitForSeconds (wait);
-			Destroy (gameObject);
+			gameObject.SetActive (false);
 		}
 	}
 

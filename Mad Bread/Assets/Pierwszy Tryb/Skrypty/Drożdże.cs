@@ -15,10 +15,10 @@ public class Drożdże : MonoBehaviour {
 	IEnumerator Powiększanie (){
 		GameObject Gracz1 = GameObject.Find ("Gracz1");
 		Gracz1.transform.localScale = new Vector3 (6f, 6f, 11f);
-		Gracz1.GetComponent<Rigidbody> ().mass = 10.0f;
+		Gracz1.GetComponent<Rigidbody> ().mass *= 2;
 		yield return new WaitForSeconds (wait);
 		Gracz1.transform.localScale = new Vector3 (5f, 5f, 10f);
-		Gracz1.GetComponent<Rigidbody> ().mass = 1.0f;
+		Gracz1.GetComponent<Rigidbody> ().mass /= 2;
 	}
 
 	IEnumerator Powiększanie2 (){
@@ -36,7 +36,7 @@ public class Drożdże : MonoBehaviour {
 			gameObject.transform.localPosition = new Vector3 (transform.position.x, -100, transform.position.z);
 			gameObject.transform.localScale = new Vector3 (0, 0, 0);
 			yield return new WaitForSeconds (wait);
-			gameObject.SetActive (false);
+			Destroy(gameObject);
 		}
 
 		if (other.gameObject.tag == "Gracz2") {
@@ -44,7 +44,7 @@ public class Drożdże : MonoBehaviour {
 			gameObject.transform.localPosition = new Vector3 (transform.position.x, -100, transform.position.z);
 			gameObject.transform.localScale = new Vector3 (0, 0, 0);
 			yield return new WaitForSeconds (wait);
-			gameObject.SetActive (false);
+			Destroy(gameObject);
 		}
 	}
 

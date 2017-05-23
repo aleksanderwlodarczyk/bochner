@@ -13,6 +13,9 @@ TagManager:
   - Plomien2
   - G2Win
   - G1Win
+  - Przedmiot
+  - Respawner
+  - Razowy
   layers:
   - Default
   - TransparentFX

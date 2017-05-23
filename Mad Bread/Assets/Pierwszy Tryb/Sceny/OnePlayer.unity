@@ -140,13 +140,13 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
-    m_Bias: 0.05
+    m_Bias: 1.03
     m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_NearPlane: 2.66
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
@@ -287,10 +287,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 54766545776677158, guid: 0607f36b37ea57143bab5b7f05492207,
-        type: 2}
-      propertyPath: m_Constraints
-      value: 104
+    - target: {fileID: 1843536399246802, guid: 0607f36b37ea57143bab5b7f05492207, type: 2}
+      propertyPath: m_TagString
+      value: Gracz1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0607f36b37ea57143bab5b7f05492207, type: 2}

@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour {
 	private GameObject gracz1;
 	private GameObject gracz2;
 
+	private Respawn respScript = new Respawn();
     void Awake()
 	{
 		gracz1 = GameObject.Find (gracz1p.name);
@@ -24,7 +25,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Update () {
-		if (Input.GetKey (KeyCode.R)) {
+		if (Input.GetKey (KeyCode.Y)) {
 			SceneManager.LoadScene ("Generator");
 		}
 		if (Input.GetKey (KeyCode.Escape)) {

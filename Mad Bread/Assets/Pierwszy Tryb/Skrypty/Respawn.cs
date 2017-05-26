@@ -22,9 +22,9 @@ public class Respawn : MonoBehaviour {
 		
 		StartCoroutine (UstawPozycje ());
 
-		if (gracz1.transform.position.y < -3f)
+		if (gracz1.transform.position.y < -3f || Input.GetKey(KeyCode.R))
 			Resp (gracz1,1);
-		if (gracz2.transform.position.y < -3f)
+		if (gracz2.transform.position.y < -3f || Input.GetKey(KeyCode.Plus))
 			Resp (gracz2,2);
 	
 	}
@@ -48,13 +48,14 @@ public class Respawn : MonoBehaviour {
 	}
 
 
-	void Resp(GameObject gracz, int n)
+	public void Resp(GameObject gracz, int n)
 	{
 		if (n == 1) 
 		{
 			GameObject.Find ("Gracz1").GetComponent<SterowanieGracz1> ().speed = 0.0f;
 			gracz1.transform.position = pozycja1;
 			gracz1.GetComponent<SterowanieGracz1> ().start = true;
+			gracz1.transform.rotation = new Quaternion (0f, gracz1.transform.rotation.y, 0f, 1f);
 
 		}
 		if (n == 2)
@@ -66,7 +67,7 @@ public class Respawn : MonoBehaviour {
 
 	}
 }
-
+	
 
 
 

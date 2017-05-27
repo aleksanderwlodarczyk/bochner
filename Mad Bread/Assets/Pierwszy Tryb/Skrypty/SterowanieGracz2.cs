@@ -5,7 +5,7 @@ public class SterowanieGracz2 : MonoBehaviour {
 	public float speed = 0.0f;
 	public float MaxSpeed;
 	public float MinSpeed;
-	public float SzybkośćObrotu = 200.0f;
+	public float SzybkośćObrotu = 80.0f;
 	public bool start = false;
 	public bool naTrasie = true;
 	public bool mierzenieSpeeda = true;

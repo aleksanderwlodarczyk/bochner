@@ -37,7 +37,6 @@ C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.Analytics.dl
 C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.dll
 C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.HoloLens.dll
 C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.Networking.dll
-C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
 C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.UI.dll
 C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.VR.dll
 C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\Mono.Cecil.dll
@@ -52,7 +51,6 @@ C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.xml
 C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEditor.xml
 C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.UI.xml
 C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.Networking.xml
-C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
 C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.Analytics.xml
 C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.VR.xml
@@ -116,3 +114,7 @@ C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\nunit.framework
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.TestRunner.dll
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.TestRunner.xml
 C:\Users\monak\Documents\GitHub\bochner\Mad Bread\Temp\bin\Debug\nunit.framework.xml
+C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.TestRunner.dll
+C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\UnityEngine.TestRunner.xml
+C:\Users\Artur\Desktop\bochner\Mad Bread\Temp\bin\Debug\nunit.framework.xml

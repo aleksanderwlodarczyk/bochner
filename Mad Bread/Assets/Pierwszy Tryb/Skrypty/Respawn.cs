@@ -21,11 +21,14 @@ public class Respawn : MonoBehaviour {
 	void Update () {
 		
 		StartCoroutine (UstawPozycje ());
-
-		if (gracz1.transform.position.y < -3f || Input.GetKey(KeyCode.R))
-			Resp (gracz1,1);
-		if (gracz2.transform.position.y < -3f || Input.GetKey(KeyCode.Plus))
-			Resp (gracz2,2);
+		if (gracz1.GetComponent<SterowanieGracz1> ().start){
+		if (gracz1.transform.position.y < -3f || Input.GetKey (KeyCode.R))
+			Resp (gracz1, 1);
+	}
+		if (gracz2.GetComponent<SterowanieGracz2> ().start) {
+			if (gracz2.transform.position.y < -3f || Input.GetKey (KeyCode.KeypadPlus))
+				Resp (gracz2, 2);
+		}
 	
 	}
 

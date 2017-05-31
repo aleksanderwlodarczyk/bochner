@@ -57,6 +57,7 @@ public class GameManager : MonoBehaviour {
 		WyścigStart.text = "";
 		gracz1.GetComponent<SterowanieGracz1> ().start = true;
 		gracz2.GetComponent<SterowanieGracz2> ().start = true;
+	
 
 	}
 

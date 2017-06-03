@@ -41,10 +41,6 @@ public class GameManager2 : MonoBehaviour {
 	}
 
 	void Update () {
-		if (Input.GetKey (KeyCode.R)) {
-			SceneManager.LoadScene ("DrugiTrybScena");
-		}
-
 		if (Input.GetKey(KeyCode.Escape))
         {
             SceneManager.LoadScene("Menu");

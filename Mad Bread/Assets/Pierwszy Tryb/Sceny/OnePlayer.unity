@@ -1317,8 +1317,8 @@ RectTransform:
   - {fileID: 528623169}
   - {fileID: 933343121}
   - {fileID: 133942963}
-  - {fileID: 1624494870}
   - {fileID: 1718134385}
+  - {fileID: 1624494870}
   - {fileID: 764872917}
   m_Father: {fileID: 2004267449}
   m_RootOrder: 0
@@ -1418,7 +1418,7 @@ MonoBehaviour:
   - {fileID: 1171889281940058, guid: cc6a735c97705d4428d8475874a73d6f, type: 2}
   - {fileID: 1201899994570854, guid: de12cf7087a6d3b409071d5056e820df, type: 2}
   - {fileID: 1201899994570854, guid: de12cf7087a6d3b409071d5056e820df, type: 2}
-  iloscSegmentow: 15
+  iloscSegmentow: 3
   szansaZakretu: 80
   meta: {fileID: 1231499934549786, guid: 9703dc722b93b124fbe687acde4e2c76, type: 2}
 --- !u!4 &1566609346
@@ -1466,7 +1466,7 @@ RectTransform:
   - {fileID: 87526538}
   - {fileID: 2044754420}
   m_Father: {fileID: 1557594035}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1731,7 +1731,7 @@ RectTransform:
   - {fileID: 867772512}
   - {fileID: 1711425358}
   m_Father: {fileID: 1557594035}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

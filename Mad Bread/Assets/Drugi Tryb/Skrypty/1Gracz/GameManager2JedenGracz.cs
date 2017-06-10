@@ -31,17 +31,12 @@ public class GameManager2JedenGracz : MonoBehaviour {
 	}
 
 	void Update () {
-		if (Input.GetKey (KeyCode.R)) {
-			SceneManager.LoadScene ("DrugiTrybScena");
-		}
 
-        if (Input.GetKey(KeyCode.P))
+
+		if (Input.GetKey(KeyCode.Escape))
         {
             SceneManager.LoadScene("Menu");
         }
-        if (Input.GetKey (KeyCode.Escape)) {
-			Application.Quit ();
-		}
 
 
 

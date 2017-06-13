@@ -10,6 +10,7 @@ public class GameManager2JedenGracz : MonoBehaviour {
     private bool start;
     private float startTime,t;
     private string seconds,Czas;
+	public CanvasGroup WASD;
 
 	public GameObject gracz1p;
 	private GameObject gracz1;
@@ -123,6 +124,8 @@ public class GameManager2JedenGracz : MonoBehaviour {
 
 
 	IEnumerator Odliczanie(){
+		CanvasGroup Canvas1 = GameObject.Find ("WASD").GetComponent<CanvasGroup> ();
+		Canvas1.alpha = 1f;
 		yield return new WaitForSeconds(1);
 		wyścigStart.text = "3";
 		yield return new WaitForSeconds(1);
@@ -130,6 +133,7 @@ public class GameManager2JedenGracz : MonoBehaviour {
 		yield return new WaitForSeconds(1);
 		wyścigStart.text = "1";
 		yield return new WaitForSeconds(1);
+		Canvas1.alpha = 0f;
 		wyścigStart.text = "START!";
 		yield return new WaitForSeconds(0.5f);
 		wyścigStart.text = "";

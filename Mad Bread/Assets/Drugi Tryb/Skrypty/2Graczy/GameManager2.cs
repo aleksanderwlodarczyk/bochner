@@ -7,6 +7,7 @@ public class GameManager2 : MonoBehaviour {
 	public Text wyścigStart;
 	private NaliczaniePunktów naliczaniePunktówSkrypt;
 	private int punktyŻebyWygrać;
+	public CanvasGroup WASD, Strzalki;
 
 
 	public GameObject gracz1p;
@@ -109,6 +110,10 @@ public class GameManager2 : MonoBehaviour {
 
 
 	IEnumerator Odliczanie(){
+		CanvasGroup Canvas1 = GameObject.Find ("WASD").GetComponent<CanvasGroup> ();
+		Canvas1.alpha = 1f;
+		CanvasGroup Canvas2 = GameObject.Find ("Strzalki").GetComponent<CanvasGroup> ();
+		Canvas2.alpha = 1f;
 		yield return new WaitForSeconds(1);
 		wyścigStart.text = "3";
 		yield return new WaitForSeconds(1);
@@ -116,6 +121,8 @@ public class GameManager2 : MonoBehaviour {
 		yield return new WaitForSeconds(1);
 		wyścigStart.text = "1";
 		yield return new WaitForSeconds(1);
+		Canvas1.alpha = 0f;
+		Canvas2.alpha = 0f;
 		wyścigStart.text = "START!";
 		yield return new WaitForSeconds(0.5f);
 		wyścigStart.text = "";

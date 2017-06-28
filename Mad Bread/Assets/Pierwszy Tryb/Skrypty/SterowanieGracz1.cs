@@ -10,7 +10,9 @@ public class SterowanieGracz1 : MonoBehaviour {
 	public bool naTrasie = true;
 	public bool mierzenieSpeeda = true;
 
+	private AudioSource bump;
 	void Start () {
+		bump = GetComponent<AudioSource> ();
 	}
 
 	void OnCollisionEnter (Collision other){
@@ -21,6 +23,12 @@ public class SterowanieGracz1 : MonoBehaviour {
 			if (speed > 0.0f) {
 				speed -= 3.0f;
 			}
+
+			bump.Play ();
+		}
+
+		if (other.gameObject.tag == "Gracz2") {
+			bump.Play ();
 		}
 	}
 

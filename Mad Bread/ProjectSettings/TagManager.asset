@@ -16,6 +16,8 @@ TagManager:
   - Przedmiot
   - Respawner
   - Razowy
+  - Camera1
+  - Camera2
   layers:
   - Default
   - TransparentFX

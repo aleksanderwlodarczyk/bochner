@@ -25,7 +25,7 @@ public class NaliczaniePunktów : MonoBehaviour {
 	}
 
 	void Update (){
-		iloscPunktow1.text = (punktyŻebyWygrać-punkty1).ToString();
-		iloscPunktow2.text = (punktyŻebyWygrać-punkty2).ToString();
+		iloscPunktow1.text = punkty1.ToString();
+		iloscPunktow2.text = punkty2.ToString();
 	}
 }

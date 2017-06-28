@@ -1202,6 +1202,55 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1018276056}
+--- !u!1 &1252334236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1252334238}
+  - component: {fileID: 1252334237}
+  m_Layer: 0
+  m_Name: "Dro\u017Cd\u017CeManager"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1252334237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1252334236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b375783f341818641a36ce9b0c09e512, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gracz1: {fileID: 1372307777}
+  Gracz2: {fileID: 0}
+  wait: 5
+  enlarged1: 0
+  enlarged2: 0
+  powiekszanie1: 0
+  powiekszanie2: 0
+  pomniejszaniecz2_1: 0
+  pomniejszaniecz2_2: 0
+--- !u!4 &1252334238
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1252334236}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.633572, y: 12.851301, z: 5.0588207}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1372307777 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1843536399246802, guid: 0607f36b37ea57143bab5b7f05492207,
@@ -1573,7 +1622,7 @@ GameObject:
   - component: {fileID: 1648168094}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: Camera1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1594,6 +1643,8 @@ MonoBehaviour:
   height: 8
   heightDamping: 0.1
   rotationDamping: 0.1
+  bigger: 0
+  smaller: 0
 --- !u!81 &1648168095
 AudioListener:
   m_ObjectHideFlags: 0

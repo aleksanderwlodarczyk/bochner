@@ -55,8 +55,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1843536399246802}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.35, y: 1, z: -18}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.7, y: 27.16, z: -150.36}
   m_LocalScale: {x: 5, y: 5, z: 10}
   m_Children:
   - {fileID: 4598734720044448}
@@ -154,13 +154,13 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1843536399246802}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 64
+  m_Constraints: 104
   m_CollisionDetection: 0
 --- !u!64 &64786192487214282
 MeshCollider:
@@ -285,4 +285,4 @@ MonoBehaviour:
   "Szybko\u015B\u0107Obrotu": 75
   start: 0
   naTrasie: 1
-  mierzenieSpeeda: 1
+  mierzenieSpeeda: 0

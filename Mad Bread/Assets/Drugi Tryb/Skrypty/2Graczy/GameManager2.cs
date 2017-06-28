@@ -46,9 +46,6 @@ public class GameManager2 : MonoBehaviour {
         {
             SceneManager.LoadScene("Menu");
         }
-        if (Input.GetKey (KeyCode.Escape)) {
-			Application.Quit ();
-		}
 
         start = GameObject.FindGameObjectWithTag("Gracz1").GetComponent<SterowanieGracz1>().start;
 
